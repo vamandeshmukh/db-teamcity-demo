@@ -27,4 +27,9 @@ public class CalcTest {
 		assertNotEquals(20, calc.addNums(10, 5));
 	}
 
+	// another negative test case
+	@Test
+	public void testAddNums4() {
+		assertNotEquals(10, calc.addNums(10, 5));
+	}
 }
