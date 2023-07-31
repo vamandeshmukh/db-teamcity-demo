@@ -32,4 +32,10 @@ public class CalcTest {
 	public void testAddNums4() {
 		assertNotEquals(10, calc.addNums(10, 5));
 	}
+
+	// another negative test case
+	@Test
+	public void testAddNums5() {
+		assertNotEquals(15, calc.addNums(10, 5));
+	}
 }
