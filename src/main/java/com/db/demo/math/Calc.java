@@ -6,4 +6,8 @@ public class Calc {
 		return i + j;
 	}
 
+	public int subNums(int i, int j) {
+		return i - j;
+	}
+
 }

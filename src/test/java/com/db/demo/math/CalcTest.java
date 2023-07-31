@@ -38,4 +38,14 @@ public class CalcTest {
 	public void testAddNums5() {
 		assertNotEquals(11, calc.addNums(10, 5));
 	}
+
+	@Test
+	public void testSubNums() {
+		assertEquals(5, calc.subNums(10, 5));
+	}
+
+	@Test
+	public void testSubNums2() {
+		assertNotEquals(10, calc.subNums(10, 5));
+	}
 }
